@@ -1,0 +1,10 @@
+E:\vs_web\DYT.BLOG\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\BLL.dll
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\BLL.pdb
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\Model.dll
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\Utils.dll
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\Model.pdb
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\Utils.pdb
+E:\vs_web\DYT.BLOG\BLL\obj\Debug\BLL.dll
+E:\vs_web\DYT.BLOG\BLL\obj\Debug\BLL.pdb
+E:\vs_web\DYT.BLOG\BLL\bin\Debug\Tools.cs

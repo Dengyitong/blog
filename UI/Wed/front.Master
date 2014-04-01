@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="front.master.cs" Inherits="UI.Wed.front" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta name="ujianVerification" content="028fc68d963a70469b5e4688f914ba64" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/radius.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <div class="main">
+
+<!--头部（包括导航栏和logo）-->
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+               <ul id="ul_active">
+                  <li><a href="Default.aspx">首页</a></li>
+                  <li><a href="archives.aspx">归档</a></li>
+                  <li><a href="about.aspx">关于</a></li>
+                  <li><a href="comment.aspx">留言</a></li>
+                   <li><a href="../User/login_model.aspx">登录</a></li>
+               </ul>
+      </div>
+      <div class="logo"><h1><small>回忆我们在一起的时候 </small><a href="Default.aspx">邓宜桐<span>个人博客</span></a></h1></div>
+      <div class="clr"></div><!--这个块的作用为清楚浮动-->
+    </div>
+  </div>
+
+  <!--中部部分-->
+  <div class="content">
+    <div class="content_resize">
+
+      <div class="mainbar"> <!--中左部分（最近四篇文章的的摘要）-->
+          <div class="table">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+      </div>
+
+      <div class="sidebar">  <!--中右部分（包括搜索框、热门文章、最近文章三部分）-->
+          <!--搜索框-->
+        <div class="searchform">
+          <form id="formsearch" name="formsearch" method="post" action="">
+            <span><input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" type="text" placeholder="请输入文章标题、关键词"/></span>
+            <input name="button_search" src="images/search_btn.gif" class="button_search" type="image" />
+          </form>
+        </div>
+
+        <div class="gadget">
+          <h2 class="star"><span>热门文章</span></h2><div class="clr"></div>
+          <ul class="sb_menu">
+          <%for(int i=0;i<NewAritcleList.Count;i++){%>   
+            <li><a href="blog.aspx?id=<%=NewAritcleList[i].id %>"><%=NewAritcleList[i].title%></a></li>
+          <%} %>
+          </ul>
+        </div>
+
+        <div class="gadget">
+          <h2 class="star"><span>近期文章</span></h2><div class="clr"></div>
+          <ul class="ex_menu">
+           <%for(int i=0;i<HotArticleList.Count;i++){%>   
+            <li><a href="blog.aspx?id=<%=HotArticleList[i].id %>"><%=HotArticleList[i].title%></a></li>
+          <%} %>
+          </ul>
+        </div>
+           <div class="gadget">
+<!-- UJian Button BEGIN -->
+<div class="ujian-hook"></div>
+<script type="text/javascript">var ujian_config = { num: 6, fillet: 0, showType: '', lkrc: '', picSize: 72, picHeight: 72, textHeight: 15, bgColor: '#' };</script>
+<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?uid=1891904"></script>
+<a href="http://www.ujian.cc" style="border:0;"><img src="http://img.ujian.cc/pixel.png" alt="友荐云推荐" style="border:0;padding:0;margin:0;" /></a>
+<!-- UJian Button END -->
+          </div>
+     </div>
+     <div class="clr"></div><!--这个块的作用为清楚浮动-->
+
+    </div>
+  </div>
+
+  <!--脚部部分（包括最近访问、友情链接、关注我们）-->
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>最近访问</span></h2>
+        <a href="#"><img src="images/pix1.jpg" width="58" height="58" alt="pix" /></a>
+        <a href="#"><img src="images/pix2.jpg" width="58" height="58" alt="pix" /></a>
+        <a href="#"><img src="images/pix3.jpg" width="58" height="58" alt="pix" /></a>
+        <a href="#"><img src="images/pix4.jpg" width="58" height="58" alt="pix" /></a>
+        <a href="#"><img src="images/pix5.jpg" width="58" height="58" alt="pix" /></a>
+        <a href="#"><img src="images/pix6.jpg" width="58" height="58" alt="pix" /></a>
+      </div>
+
+      <div class="c2">
+        <h2><span>友情链接</span></h2>
+         <%for(int i=0;i<list.Count;i++){%>
+         <ul>
+         <li><a href="<%=list[i].wed %>"><%=list[i].name %></a></li>
+         </ul>
+          <%} %>
+      </div>
+
+      <div class="col c3">
+        <h2><span>关注我们</span></h2>
+        <p>了解本站后，如果你任何的意见和需求，请按照以下方式联系我们</p>
+        <p>邮箱：727379993@qq.com</p>
+        <p>电话：13512797346&nbsp;邓先生</p>
+        <p>地址: 华南农业大学跃进南32栋418</p>
+      </div>
+
+      <div class="clr"></div><!--这个块的作用为清楚浮动-->
+    </div>
+  </div>
+
+  <!--底部部分（包括导航栏的副本、开发信息）-->
+  <div class="footer">
+
+    <div class="footer_resize">
+      <p class="lf">Copyrigth &copy; &nbsp;<%=DateTime.Now.Year %>&nbsp;<a href="index.aspx">个人博客</a> PoweredBy &nbsp;Racent.R&d.DYT</p>
+      <ul class="fmenu">
+        <li><a href="Default.aspx">首页</a></li>
+        <li><a href="archives.aspx">归档</a></li>
+        <li><a href="about.aspx">关于</a></li>
+        <li><a href="comment.aspx">留言</a></li>
+      </ul>
+      <div class="clr"></div><!--这个块的作用为清楚浮动-->
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
