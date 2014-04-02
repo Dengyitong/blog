@@ -33,7 +33,7 @@ protected void Page_Load(object sender, EventArgs e)
 	string inputname = "filedata";//表单文件域name
     string attachdir = "../../upload";     // 上传文件保存路径，结尾不要带/
     int dirtype = 1;                 // 1:按天存入目录 2:按月存入目录 3:按扩展名存目录  建议使用按天存
-    int maxattachsize = 2097152;     // 最大上传大小，默认是2M
+    int maxattachsize = 52428800;     // 最大上传大小，默认是2M
     string upext = "txt,rar,zip,jpg,jpeg,gif,png,swf,wmv,avi,wma,mp3,mid";    // 上传扩展名
     int msgtype = 2;                 //返回上传参数的格式：1，只返回url，2，返回参数数组
 	string immediate = Request.QueryString["immediate"];//立即上传模式，仅为演示用
