@@ -336,6 +336,7 @@
     <Content Include="Admin\xheditor\xheditor_skin\vista\img\waiting.gif" />
     <Content Include="Admin\xheditor\xheditor_skin\vista\img\wmp.gif" />
     <Content Include="Admin\xheditor\xheditor_skin\vista\ui.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Share\css\bootstrap-ie6.min.css" />
     <Content Include="Share\css\bootstrap-responsive.min.css" />
     <Content Include="Share\css\bootstrap.min.css" />
@@ -385,7 +386,6 @@
     <Content Include="Wed\images\userpic.gif" />
     <Content Include="Wed\images\user_edit.png" />
     <Content Include="Wed\Default.aspx" />
-    <Content Include="Wed\index.html" />
     <Content Include="Wed\js\arial.js" />
     <Content Include="Wed\js\cufon-yui.js" />
     <Content Include="Wed\js\cuf_run.js" />
@@ -476,6 +476,13 @@
     </Compile>
     <Compile Include="Admin\user.ashx.cs">
       <DependentUpon>user.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\AjaxAction.ashx.cs">
