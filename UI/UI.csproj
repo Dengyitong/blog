@@ -389,13 +389,9 @@
     <Content Include="Wed\js\arial.js" />
     <Content Include="Wed\js\cufon-yui.js" />
     <Content Include="Wed\js\cuf_run.js" />
-    <Content Include="Wed\js\dd_belatedpng_0.0.8a-min.js" />
-    <Content Include="Wed\js\helpcenter.js" />
     <Content Include="Wed\js\jquery-1.3.2.min.js" />
     <Content Include="Wed\js\radius.js" />
     <Content Include="Wed\style.css" />
-    <Content Include="Wed\style\common.css" />
-    <Content Include="Wed\style\helpcenter.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\al_create.aspx.cs">

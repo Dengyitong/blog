@@ -8,4 +8,3 @@ E:\vs_web\DYT.BLOG2\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
 E:\vs_web\DYT.BLOG2\Utils\obj\Debug\Utils.dll
 E:\vs_web\DYT.BLOG2\Utils\obj\Debug\Utils.pdb
 E:\vs_web\DYT.BLOG\Utils\bin\Debug\Tools.cs
-E:\vs_web\DYT.BLOG\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
