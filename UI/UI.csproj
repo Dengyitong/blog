@@ -57,6 +57,49 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="360_slider\img\bike6x6.jpg" />
+    <Content Include="360_slider\img\loading.gif" />
+    <Content Include="360_slider\img\navigation-next.png" />
+    <Content Include="360_slider\img\navigation-previous.png" />
+    <Content Include="360_slider\img\rad_zoom_001.jpg" />
+    <Content Include="360_slider\img\rad_zoom_002.jpg" />
+    <Content Include="360_slider\img\rad_zoom_003.jpg" />
+    <Content Include="360_slider\img\rad_zoom_004.jpg" />
+    <Content Include="360_slider\img\rad_zoom_005.jpg" />
+    <Content Include="360_slider\img\rad_zoom_006.jpg" />
+    <Content Include="360_slider\img\rad_zoom_007.jpg" />
+    <Content Include="360_slider\img\rad_zoom_008.jpg" />
+    <Content Include="360_slider\img\rad_zoom_009.jpg" />
+    <Content Include="360_slider\img\rad_zoom_010.jpg" />
+    <Content Include="360_slider\img\rad_zoom_011.jpg" />
+    <Content Include="360_slider\img\rad_zoom_012.jpg" />
+    <Content Include="360_slider\img\rad_zoom_013.jpg" />
+    <Content Include="360_slider\img\rad_zoom_014.jpg" />
+    <Content Include="360_slider\img\rad_zoom_015.jpg" />
+    <Content Include="360_slider\img\rad_zoom_016.jpg" />
+    <Content Include="360_slider\img\rad_zoom_017.jpg" />
+    <Content Include="360_slider\img\rad_zoom_018.jpg" />
+    <Content Include="360_slider\img\rad_zoom_019.jpg" />
+    <Content Include="360_slider\img\rad_zoom_020.jpg" />
+    <Content Include="360_slider\img\rad_zoom_021.jpg" />
+    <Content Include="360_slider\img\rad_zoom_022.jpg" />
+    <Content Include="360_slider\img\rad_zoom_023.jpg" />
+    <Content Include="360_slider\img\rad_zoom_024.jpg" />
+    <Content Include="360_slider\img\rad_zoom_025.jpg" />
+    <Content Include="360_slider\img\rad_zoom_026.jpg" />
+    <Content Include="360_slider\img\rad_zoom_027.jpg" />
+    <Content Include="360_slider\img\rad_zoom_028.jpg" />
+    <Content Include="360_slider\img\rad_zoom_029.jpg" />
+    <Content Include="360_slider\img\rad_zoom_030.jpg" />
+    <Content Include="360_slider\img\rad_zoom_031.jpg" />
+    <Content Include="360_slider\img\rad_zoom_032.jpg" />
+    <Content Include="360_slider\img\rad_zoom_033.jpg" />
+    <Content Include="360_slider\img\rad_zoom_034.jpg" />
+    <Content Include="360_slider\index.html" />
+    <Content Include="360_slider\js\jquery-1.7.2.min.js" />
+    <Content Include="360_slider\js\jQuery-easing.js" />
+    <Content Include="360_slider\js\jQuery-jcSlider.js" />
+    <Content Include="360_slider\js\spritespin.js" />
     <Content Include="Admin\al_create.aspx" />
     <Content Include="Admin\al_default.aspx" />
     <Content Include="Admin\al_edit.aspx" />
@@ -368,9 +411,11 @@
     <Content Include="Wed\blog.aspx" />
     <Content Include="Wed\comment.aspx" />
     <Content Include="Wed\images\ali.jpg" />
+    <Content Include="Wed\images\bg.jpg" />
     <Content Include="Wed\images\biaobai.jpg" />
     <Content Include="Wed\images\favicon.ico" />
     <Content Include="Wed\images\main_bg.jpg" />
+    <Content Include="Wed\images\ParticleSmoke.png" />
     <Content Include="Wed\images\pix1.jpg" />
     <Content Include="Wed\images\pix2.jpg" />
     <Content Include="Wed\images\pix3.jpg" />
@@ -391,6 +436,8 @@
     <Content Include="Wed\js\cuf_run.js" />
     <Content Include="Wed\js\jquery-1.3.2.min.js" />
     <Content Include="Wed\js\radius.js" />
+    <Content Include="Wed\js\Snow.js" />
+    <Content Include="Wed\js\ThreeCanvas.js" />
     <Content Include="Wed\style.css" />
   </ItemGroup>
   <ItemGroup>

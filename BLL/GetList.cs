@@ -84,6 +84,25 @@ namespace BLL
             return ret;
         }
         /// <summary>
+        /// 查询搜索文章
+        /// </summary>
+        /// <returns></returns>
+        static public List<Model.Article> SearchArticle(string search)
+        {
+            Utils.SQLHelper db = new Utils.SQLHelper();
+            string sql = "select * from log_table where title like @search";
+            DataTable dt = db.ExecuteQuery(sql, System.Data.CommandType.Text);
+
+            List<Model.Article> ret = new List<Model.Article>();
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                ret.Add(new Model.Article(dt.Rows[i][0], dt.Rows[i][1], dt.Rows[i][2], dt.Rows[i][3], dt.Rows[i][4], dt.Rows[i][5], dt.Rows[i][6], dt.Rows[i][7], dt.Rows[i][8], dt.Rows[i][9]));
+
+            }
+            return ret;
+        }
+        /// <summary>
         /// 查询年份
         /// </summary>
         /// <returns></returns>
