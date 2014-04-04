@@ -24,6 +24,13 @@
                 alert("输入不能为空");
             }
         }
+        function enter(obj, evt) {
+            evt = (evt) ? evt : ((window.event) ? window.event : "")
+            keyCode = evt.keyCode ? evt.keyCode : (evt.which ? evt.which : evt.charCode);
+            if (keyCode == 13) {
+                document.getElementById("button_search").click();
+            }
+        }
     </script>
     <style>
         #formsearch input.button_search { margin:6px 0 0 0; padding:9px 17px; border:none; float:left;background-image:url(images/search_btn.gif);cursor:pointer}
@@ -71,7 +78,7 @@
           <!--搜索框-->
         <div class="searchform">
           <div id="formsearch" name="formsearch">
-            <span><input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" type="search" placeholder="请输入文章标题、关键词"  value=""/></span>
+            <span><input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" type="search" placeholder="请输入文章标题、关键词"  value="" onkeydown="enter(this,event)"/></span>
             <input name="button_search"  class="button_search" type="button" onclick="search()" id="button_search"/>
           </div>
         </div>
