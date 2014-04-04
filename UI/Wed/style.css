@@ -133,7 +133,6 @@ ol li .send { margin:16px 0 0 0;}
 #formsearch { margin:0; height:36px; padding:10px 28px 40px 0;}
 #formsearch span { display:block; margin:6px 0; padding:0; float:left; background:#fff url(images/search.gif) no-repeat top left;}
 #formsearch input.editbox_search { margin:0; padding:11px 6px 10px; float:left; width:181px; border:none; background:none; font:normal 12px/1.5em Arial, Helvetica, sans-serif; color:#a8acb2;}
-#formsearch input.button_search { margin:6px 0 0 0; padding:9px 17px; border:none; float:left;background-image:url(images/search_btn.gif);cursor:pointer}
 /*�鵵�б���ʽ*/
 ul.al_mon_list { height:auto; width:auto; padding-left:20px; margin-bottom:6px;}
 ul.al_mon_list li { font-size:16px; line-height:26px; margin:0 20px;list-style-type:none;  }

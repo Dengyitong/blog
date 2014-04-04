@@ -25,6 +25,9 @@
             }
         }
     </script>
+    <style>
+        #formsearch input.button_search { margin:6px 0 0 0; padding:9px 17px; border:none; float:left;background-image:url(images/search_btn.gif);cursor:pointer}
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
