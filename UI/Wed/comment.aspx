@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Wed/front.Master" AutoEventWireup="true" CodeBehind="comment.aspx.cs" Inherits="UI.Wed.comment1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>留言-邓宜桐个人博客</title>
+    <script>
+          $(function () {
+             //设置导航栏活跃标签效果
+             $("#ul_active").children("li").eq(3).addClass("active");
+          })
+      </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="article">

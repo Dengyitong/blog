@@ -9,7 +9,7 @@
 </title><link href="../../Share/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../../Share/css/bootstrap-ie6.min.css" rel="stylesheet" />
     <link href="../../Share/css/bootstrap-responsive.min.css" rel="stylesheet" />
-    <script src="../../Share/js/jquery-1.9.1.min.js"></script>
+    <script src="../Share/js/jquery-1.9.1.min.js"></script>
     <script src="../../Share/js/bookstrap-alert.js"></script>
     <style>
         body {

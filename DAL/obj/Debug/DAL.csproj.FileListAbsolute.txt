@@ -2,3 +2,4 @@ E:\vs_web\DYT.BLOG\DAL\bin\Debug\DAL.dll
 E:\vs_web\DYT.BLOG\DAL\bin\Debug\DAL.pdb
 E:\vs_web\DYT.BLOG\DAL\obj\Debug\DAL.dll
 E:\vs_web\DYT.BLOG\DAL\obj\Debug\DAL.pdb
+E:\vs_web\DYT.BLOG\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
