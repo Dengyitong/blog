@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Data;
 using System.Text;
+using System.Data;
+using System.Data.SqlClient;
+using System.Threading.Tasks;
+
 
 namespace BLL
 {
@@ -90,8 +93,12 @@ namespace BLL
         static public List<Model.Article> SearchArticle(string search)
         {
             Utils.SQLHelper db = new Utils.SQLHelper();
-            string sql = "select * from log_table where title like @search";
-            DataTable dt = db.ExecuteQuery(sql, System.Data.CommandType.Text);
+            string sql = "select * from log_table where title like '%'+@search+'%'";
+            SqlParameter[] ps ={
+                                  new SqlParameter("search",SqlDbType.NVarChar)
+                              };
+            ps[0].Value =search;
+            DataTable dt = db.ExecuteQuery(sql, ps,System.Data.CommandType.Text);
 
             List<Model.Article> ret = new List<Model.Article>();
 
