@@ -4,7 +4,6 @@
 <title>邓宜桐个人博客背景</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
- <meta http-equiv="refresh" content="5;url=/Wed/Default.aspx"/>
 <style type="text/css">
 body {
 	background-color:#000044;
@@ -15,15 +14,29 @@ body {
 a {
 	color:#0078ff;
 }
-#clock{padding:10px;color:white;}
+#clock{padding:10px 20px;color:white;}
+    #clock span {
+        padding-right: 5px;
+    }
 </style>
 </head>
 <body onLoad="init()">
-<p id="clock"></p>
+<p id="clock"><span id="dd">10</span>秒后自动跳转</p>
 <script type="text/javascript" src="/Wed/js/ThreeCanvas.js"></script>
 <script type="text/javascript" src="/Wed/js/Snow.js"></script>
     <script type="text/javascript" src="Share/js/jquery-1.9.1.min.js"></script>
 <script>
+
+function run(){
+    var s = document.getElementById("dd");
+    if(s.innerHTML == 0){
+        window.location.href='/Wed/Default.aspx';
+        return false;
+    }
+    s.innerHTML = s.innerHTML * 1 - 1;
+}
+window.setInterval("run();", 1000);
+
 
     var SCREEN_WIDTH = window.innerWidth;
     var SCREEN_HEIGHT = window.innerHeight;
