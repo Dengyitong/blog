@@ -27,6 +27,10 @@
     </script>
     <style>
         #formsearch input.button_search { margin:6px 0 0 0; padding:9px 17px; border:none; float:left;background-image:url(images/search_btn.gif);cursor:pointer}
+        #search_error{font-size:24px;color:#333;text-align:center;margin-top:20px;}
+        #search_error span{padding-left:10px;margin-bottom:10px;}
+        #search_error img{border:none;vertical-align:text-bottom;}
+        #alert{text-align:center;letter-spacing:2px;padding-top:20px;text-decoration:underline;}
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

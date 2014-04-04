@@ -2,3 +2,4 @@ E:\vs_web\DYT.BLOG\Model\bin\Debug\Model.dll
 E:\vs_web\DYT.BLOG\Model\bin\Debug\Model.pdb
 E:\vs_web\DYT.BLOG\Model\obj\Debug\Model.dll
 E:\vs_web\DYT.BLOG\Model\obj\Debug\Model.pdb
+E:\vs_web\DYT.BLOG\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

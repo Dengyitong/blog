@@ -150,9 +150,5 @@ div.note p{padding:3px}
 a.month{text-decoration:none;color:#555555;}
 a.month:hover{color:#30b0d5;}
 /*表白*/
-#search_error{font-size:24px;color:#333;text-align:center;margin-top:20px;}
-#search_error span{padding-left:10px;margin-bottom:10px;}
-#search_error img{border:none;vertical-align:text-bottom;}
-#alert{text-align:center;letter-spacing:2px;padding-top:20px;text-decoration:underline;}
 span.biaobai{color:#104ef8}
 .img_ali{width:300px;}

@@ -27,6 +27,10 @@
     </script>
     <style>
         #formsearch input.button_search { margin:6px 0 0 0; padding:9px 17px; border:none; float:left;background-image:url(images/search_btn.gif);cursor:pointer}
+        #search_error{font-size:24px;color:#333;text-align:center;margin-top:20px;}
+        #search_error span{padding-left:10px;margin-bottom:10px;}
+        #search_error img{border:none;vertical-align:text-bottom;}
+        #alert{text-align:center;letter-spacing:2px;padding-top:20px;text-decoration:underline;}
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -66,10 +70,10 @@
       <div class="sidebar">  <!--中右部分（包括搜索框、热门文章、最近文章三部分）-->
           <!--搜索框-->
         <div class="searchform">
-          <form id="formsearch" name="formsearch">
+          <div id="formsearch" name="formsearch">
             <span><input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" type="search" placeholder="请输入文章标题、关键词"  value=""/></span>
             <input name="button_search"  class="button_search" type="button" onclick="search()" id="button_search"/>
-          </form>
+          </div>
         </div>
 
         <div class="gadget">
