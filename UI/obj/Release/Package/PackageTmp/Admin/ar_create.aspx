@@ -26,7 +26,7 @@
             
             </tr>
              <tr>
-                <td><textarea name="substance" style="width:600px; height:400px" class="xheditor {skin:'o2007blue',html5Upload:false,upMultiple:'1',upLinkUrl:'xheditor/upload.aspx',upLinkExt:'zip,rar,txt,pdf,doc,docx,ppt,pptx,xls,xlsx',upImgUrl:'xheditor/upload.aspx',upImgExt:'jpg,jpeg,gif,bmp,png',showBlocktag:true,tools:'Bold,Italic,Underline,FontColor,BackColor,Blocktag,Align,Link,Unlink,Img,Emot,Table'}"></textarea></td>
+                <td><textarea name="substance" id="substance" style="width:600px; height:400px" class="xheditor {skin:'o2007blue',html5Upload:false,upMultiple:'1',upLinkUrl:'xheditor/upload.aspx',upLinkExt:'zip,rar,txt,pdf,doc,docx,ppt,pptx,xls,xlsx',upImgUrl:'xheditor/upload.aspx',upImgExt:'jpg,jpeg,gif,bmp,png',upFlashUrl:'xheditor/upload.aspx',upMediaUrl:'xheditor/upload.aspx',showBlocktag:true,tools:'Bold,Italic,Underline,FontColor,BackColor,Blocktag,Align,Link,Unlink,Img,Flash,Media,Emot,Table'}"></textarea></td>
             </tr>
             <tr>
                 <td><input type="submit" value="添加" /><a href="ar_default.aspx" class="back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【返回】</a></td>
