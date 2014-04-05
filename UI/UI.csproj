@@ -344,6 +344,15 @@
     <Content Include="Share\js\bootstrap.js" />
     <Content Include="Share\js\bootstrap.min.js" />
     <Content Include="Share\js\jquery-1.9.1.min.js" />
+    <Content Include="upload\day_140215\201402151221092545.jpg" />
+    <Content Include="upload\day_140215\201402151229557412.jpg" />
+    <Content Include="upload\day_140215\201402151239525078.jpg" />
+    <Content Include="upload\day_140304\201403040707504605.jpg" />
+    <Content Include="upload\day_140304\day_140220\201402200529277196.jpg" />
+    <Content Include="upload\day_140329\201403290308257204.jpg" />
+    <Content Include="upload\day_140329\201403290310345635.jpg" />
+    <Content Include="upload\day_140402\201404020526354596.jpg" />
+    <Content Include="upload\day_140402\201404020532315858.jpg" />
     <Content Include="User\assets\css\reset.css" />
     <Content Include="User\assets\css\style.css" />
     <Content Include="User\assets\css\supersized.css" />
@@ -554,6 +563,10 @@
     <Content Include="User\AjaxAction.ashx" />
     <Content Include="User\LoginOut.ashx" />
     <None Include="Properties\PublishProfiles\blogConfig.pubxml" />
+    <Content Include="upload\day_140402\201404020513517362.zip" />
+    <Content Include="upload\day_140402\201404020553281390.zip" />
+    <Content Include="upload\day_140405\20140405010234128.rmvb" />
+    <Content Include="upload\day_140405\201404050106138724.rmvb" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
